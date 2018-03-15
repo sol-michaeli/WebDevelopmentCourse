@@ -1,0 +1,106 @@
+body {
+    direction: rtl;
+    background-image: url('../images/IMG_20170209_072354.jpg');
+    background-size:1000px;
+    background-repeat:no-repeat;
+    background-position:top center;
+  
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+ 
+h1 {
+    padding:50px;
+    font-family: Calibri;
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+    color:lightpink;
+
+}
+h2 {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Calibri;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+}
+#hobie, #edu, #job {
+    height: 100px;
+    width: 170px;
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    
+}
+
+
+    #hobie:hover, #edu:hover, #job:hover {
+        background-color: rgba(255, 182, 193, 0.22);
+    }
+
+
+#contact {
+    margin-top: 200px;
+    margin-right: 370px;
+    padding-bottom: 15px;
+    color:rgba(255, 182, 193, 0.22);
+}
+#fb {
+    background: url('../images/FB.png') no-repeat center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 650px;
+}
+#ig {
+    background: url('../images/IG.png') no-repeat center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 650px;
+}
+#gm {
+    background: url('../images/GM.png') no-repeat center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 650px;
+}
+#gm, #fb, #ig {
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    display: inline-block;
+}
+ #fb:hover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/FB.png) no-repeat center;
+    background-size: 60px 60px;
+}
+ #ig:hover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/IG.png) no-repeat center;
+    background-size: 60px 60px;
+}
+ #gm:hover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/GM.png) no-repeat center;
+    background-size: 60px 60px;
+}
