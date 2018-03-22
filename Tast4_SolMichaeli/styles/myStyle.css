@@ -1,0 +1,148 @@
+body {
+    direction: rtl;
+    background-image: url('../images/newbackground.jpeg');
+
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: top center;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+ 
+h1 {
+    padding:50px;
+    font-family: Calibri;
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+    color:darkgrey;
+
+}
+
+#mynav{
+    margin-right:310px;
+}
+ul {
+    list-style:none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+nav ul li a {
+    display: block;
+    background-color:#605d5d;
+    color: white;
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: lightgray;
+}
+
+nav ul li a:active {
+    background-color: #808080;
+}
+
+
+#contact {
+    margin-right: 530px;
+    padding-bottom: 15px;
+    color:#838383;
+    font-size:30px;
+    font-family:Calibri;
+}
+#fb {
+    background: url('../images/FB.png') no-repeat center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 560px;
+   
+}
+#ig {
+    background: url('../images/IG.png') no-repeat center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 560px;
+}
+#gm {
+    background: url('../images/GM.png') no-repeat center;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 560px;
+}
+#gm, #fb, #ig {
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    display: inline-block;
+    float: right;
+    background-repeat:no-repeat;
+}
+ #fb:hover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/FB.png) no-repeat center;
+    background-size: 60px 60px;
+}
+ #ig:hover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/IG.png) no-repeat center;
+    background-size: 60px 60px;
+}
+ #gm:hover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/GM.png) no-repeat center;
+    background-size: 60px 60px;
+}
+#line {
+    display: inline-block;
+    float: right;
+}
+p {
+    padding: 0px 50px;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 20px;
+    
+}
+h2 {
+    padding: 0px 50px;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 25px;
+    color:#939090;
+}
+#pencil{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border:solid ;
+    margin-top:20px;
+
+}
+#home {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 15px;
+    color: #605d5d;
+    margin: 20px 530px 0px 0px;
+    
+}
