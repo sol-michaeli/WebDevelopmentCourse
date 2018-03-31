@@ -1,0 +1,78 @@
+body {
+    direction: rtl;
+    background-image: url('../images/phone2.jpg');
+    background-size: 1200px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Heebo;
+}
+
+input[type ='text'] {
+    width: 180px;
+}
+
+input[type ='submit'] {
+    width: 60px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #e03636;
+    margin-top: 110px;
+    font-size: 80px;
+    font-family: Bellefair;
+    padding-right: 35px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: Heebo;
+    padding-right: 240px;
+}
+
+ul {
+    margin-top: 40px;
+    margin-right: 310px;
+    font-size: 25px;
+}
+
+li {
+    margin-top: 16px;
+    font-family: Heebo;
+    background-image: url('../images/9ipLr4yGT.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 620px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+
+form {
+    padding: 15px;
+    margin-top: 120px;
+    margin-right: 140px;
+    background-color: rgba(244, 46, 46, 0.41);
+    height: 30px;
+    width: 850px;
+    font-size: 18px;
+    font-family: Heebo;
+    -webkit-box-shadow: -15px 15px 30px 5px #BABABA;
+    box-shadow: -15px 15px 30px 5px #BABABA;
+}
+
+#LastName, #FirstName, #mail {
+    font-size: 16px;
+}
+
+label {
+    font-family: Heebo;
+    padding-top: 20px;
+}
