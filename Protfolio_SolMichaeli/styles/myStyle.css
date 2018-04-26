@@ -1,0 +1,405 @@
+﻿body {
+    direction: rtl;
+    background-color: black;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+    #container * {
+        font-family: 'Levenim MT';
+    }
+
+#logo {
+    background-image: url('../images/logo.png');
+    position: absolute;
+    height: 320px;
+    width: 60px;
+    background-position: left;
+    background-repeat: repeat-x;
+    margin-right: 900px
+}
+
+#endlogo {
+    background-image: url('../images/solmichaeli.png');
+    height: 300px;
+    width: 70px;
+    position: absolute;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+
+#red {
+    background-image: url('../images/protfolioRED.png');
+    width: 980px;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-top: 350px;
+}
+
+#red2 {
+    background-image: url('../images/protfolioRED.png');
+    width: 980px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: red;
+    width: 960px;
+    height: 30px;
+    text-align: center;
+    margin-top: 250px;
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 20px
+}
+
+#footer2 {
+    background-color: red;
+    width: 960px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 20px
+}
+
+#red3 {
+    background-image: url('../images/protfolioRED.png');
+    width: 980px;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-top: 700px;
+}
+
+#footer3 {
+    background-color: red;
+    width: 960px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 20px
+}
+
+
+#mainnav ul {
+    list-style: none;
+}
+
+    #mainnav ul li {
+        padding-top: 10px;
+        display: inline-block;
+        float: left;
+    }
+
+        #mainnav ul li a {
+            color: white;
+            height: 80px;
+            margin-top: 5px;
+            padding: 15px 20px 10px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 3px;
+            margin-left: 80px
+        }
+
+#now {
+    border-bottom: solid 2px red;
+}
+
+#mainnav ul li a:hover {
+    border-bottom: #f5f5f533 2px solid;
+}
+
+#mainnav ul li a:active {
+    background-color: red;
+}
+
+#mainnav {
+}
+
+#solm {
+    height: 45px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    float: left;
+    padding-right: 750px;
+    margin-top: 50px;
+}
+
+#aboutme {
+    margin: 100px 65px 0px 0px;
+    height: 160px;
+    width: 750px;
+    display: inline-block;
+    float: right;
+    color: white;
+}
+
+hr {
+    color: white;
+}
+
+h1 {
+}
+
+/*h2 {
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+    float: right;
+    display: inline-block;
+}*/
+
+#hello {
+    padding-top: 310px;
+    font-size: 22px;
+    width: 450px;
+    letter-spacing: 2px;
+    margin-right: -70px;
+    text-align: right;
+    direction: rtl;
+}
+
+#redtext {
+    color: red;
+}
+
+#me {
+    background-image: url('../images/solm.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    margin-top: -20px;
+}
+
+#sidetext {
+    font-size: 60px;
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+}
+
+
+
+#clear {
+    clear: right;
+    padding: 15px 30px;
+    margin: 250px;
+}
+
+#acticon {
+    background-image: url('../images/ACTILicon.png');
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-left: 40px;
+    margin-top: 13px;
+    padding-right: 20px;
+}
+
+    #acticon:hover {
+        background-image: url('../images/actilclick.png');
+        background-size: contain;
+    }
+
+    #acticon:active {
+        background-image: url('../images/ACTILicon.png');
+    }
+
+#inspaicon {
+    background-image: url('../images/insparationicon.png');
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    display: inline-block;
+    float: right;
+    margin-top: 13px;
+    padding-right: 10px
+}
+
+    #inspaicon:hover {
+        background-image: url('../images/seanclick.png');
+    }
+
+    #inspaicon:active {
+        background-image: url('../images/insparationicon.png');
+    }
+
+
+#selficon {
+    background-image: url('../images/selfportraiticon.png');
+    height: 230px;
+    width: 220px;
+    background-size: contain;
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+
+    #selficon:hover {
+        background-image: url('../images/selfclick.png');
+    }
+
+    #selficon:active {
+        background-image: url('../images/selfportraiticon.png');
+    }
+
+#icons {
+    margin-top: 10px;
+    margin-right: 30px;
+    padding-right: 20px
+}
+
+#solicon {
+    background-image: url('../images/solmichaeli.png');
+    display: inline-block;
+    float: right;
+}
+/*self portrait + act il*/
+#selfportrait {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+}
+
+    #selfportrait:hover, #hazotit:hover {
+        filter: drop-shadow(8px 8px 10px gray);
+    }
+/*full size*/
+
+#selfportraitfullsize {
+    height: 750px;
+    width: 750px;
+    position: absolute;
+}
+
+#actilfullsize {
+    height: 750px;
+    width: 750px;
+    position: absolute;
+}
+
+#hazotitfullsize {
+    height: 750px;
+    width: 1100px;
+    position: absolute;
+}
+
+#goback {
+    background-color: black;
+    color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    font-size: 36px;
+    border-radius: 100px;
+    position: absolute;
+    margin: 20px 20px 0px 0px;
+    border: solid white;
+    padding: 3px 10px 8px;
+}
+
+    #goback:hover {
+        filter: drop-shadow(5px 5px 5px gray);
+    }
+
+#selftext {
+    width: 550px;
+    height: 120px;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    padding-top: 570px;
+}
+
+#koteret {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 75px;
+    padding: 10px;
+    position: absolute;
+}
+/*bread*/
+/*#bread ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+    #bread ul li a {
+        display: inline-block;
+        list-style-type: none;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+
+    #bread ul li:after {
+        content: " > ";
+    }
+
+    #bread ul li:last-child:after {
+        content: "";
+    }*/
+
+/*Interpretation page*/
+
+#hazotit {
+    height: 250px;
+    width: 400px;
+    display: inline-block;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    padding-right: 60px;
+}
+
+#frida {
+    display: inline-block;
+    float: right;
+    height: 250px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+#video {
+    display: inline-block;
+    float: right;
+    margin: 30px 60px 30px 30px
+}
+
+#hazotittext {
+    display: inline-block;
+    float: right;
+    width: 400px;
+    height: 100px;
+    margin-top: 110px;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#bigger {
+    font-size: 30px;
+    font-weight: bold;
+}
